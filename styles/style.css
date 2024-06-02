@@ -1,0 +1,33 @@
+p.my-class {
+    color: red;
+}
+
+html {
+    font-size: x-small;
+    font-family:'Courier New', Courier, monospace;
+    background-color: blueviolet;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+    text-shadow: 5px 5px 1px blue;
+    transition-duration: 1s;
+}
+  
+p,
+li {
+    font-size: medium;
+    text-align: right;
+}
+
+h1:hover {
+    font-size: xx-large;
+    color: aqua;
+    transition-duration: 1s;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
