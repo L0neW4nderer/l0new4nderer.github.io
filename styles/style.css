@@ -1,33 +1,36 @@
-p.my-class {
-    color: red;
+* {
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
 }
 
-html {
-    font-size: x-small;
-    font-family:'Courier New', Courier, monospace;
-    background-color: blueviolet;
+.ref-icon {
+    width: 48px;
+    height: 48px;
 }
 
-h1 {
-    font-size: large;
-    text-align: center;
-    text-shadow: 5px 5px 1px blue;
-    transition-duration: 1s;
-}
-  
-p,
-li {
-    font-size: medium;
-    text-align: right;
+.invert {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
 }
 
-h1:hover {
-    font-size: xx-large;
-    color: aqua;
-    transition-duration: 1s;
+.erased {
+    text-decoration: line-through;
 }
 
-img {
-    margin: 0 auto;
-    display: block;
+h2 {
+    background-color: #32C8F4;
+}
+
+a {
+    color: #32C8F4;
+}
+
+nav {
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 5%;
 }
